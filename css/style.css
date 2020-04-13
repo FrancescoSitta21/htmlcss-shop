@@ -1,0 +1,60 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*fine reset*/
+
+/*wrapper*/
+.wrapper {
+  width: 80%;
+  margin: 20px;
+  text-align: center;
+}
+/*fine wrapper*/
+
+/*inizio riga*/
+.riga {
+  margin: 20px 10px;
+}
+/*fine riga*/
+
+/*inizio prodotto*/
+.prodotto {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+}
+
+.prodotto .sconto {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: green;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 3px
+}
+
+.prodottouno .rosso {
+  background-color: red;
+  color: red;
+}
+
+/*inizio cuore*/
+.prodotto .heart {
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  right: 150px
+  color: red;
+}
+
+.prodotto:hover .heart {
+  display: inline-block;
+}
+/*fine cuore*/
+/*fine prodotto*/
