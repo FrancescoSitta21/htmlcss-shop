@@ -29,6 +29,13 @@
   cursor: pointer;
 }
 
+.iphone {
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  vertical-align: top;
+  cursor: pointer;
+}
 .prodotto .sconto {
   position: absolute;
   top: 0;
@@ -39,22 +46,27 @@
   padding: 3px
 }
 
-.prodottouno .rosso {
-  background-color: red;
-  color: red;
+.iphone .rosso {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+  font-weight: 700;
+  background: red;
+  padding: 3px;
 }
 
 /*inizio cuore*/
-.prodotto .heart {
-  display: none;
-  position: absolute;
+.cuore .prodotto .iphone {
   bottom: 20px;
   right: 150px
   color: red;
 }
 
-.prodotto:hover .heart {
+.prodotto .cuore:hover {
   display: inline-block;
 }
+
+
 /*fine cuore*/
 /*fine prodotto*/
